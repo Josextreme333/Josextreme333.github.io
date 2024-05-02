@@ -26,8 +26,16 @@ li {
     margin-bottom: 5px;
 }
 img {
+    max-width: 100%;
+    height: auto;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+footer img {
+    background-color: #333;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
 }
