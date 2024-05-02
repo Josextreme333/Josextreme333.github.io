@@ -4,6 +4,17 @@ body {
     margin: 0;
     padding: 0;
 }
+.imagen-container {
+    background-color: #000000;
+    max-width: 90%; 
+    margin: 20px auto; 
+}
+
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
 
 header {
     background-color: #333;
@@ -25,14 +36,7 @@ ul, ol {
 li {
     margin-bottom: 5px;
 }
-img {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 footer {
     background-color: #333;
     color: white;
