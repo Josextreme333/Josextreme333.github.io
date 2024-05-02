@@ -33,9 +33,9 @@ img {
     left: 50%;
     transform: translateX(-50%);
 }
-footer img {
+footer {
     background-color: #333;
-    max-width: 100%;
-    height: auto;
-    margin: 10px auto;
+    color: white;
+    padding: 20px;
+    text-align: start;
 }
